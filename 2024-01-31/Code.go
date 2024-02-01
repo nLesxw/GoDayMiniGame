@@ -14,7 +14,8 @@ func main() {
 		time.Date(2020, 12, 20, 0, 0, 0, 0, time.UTC),
 		5,
 	}
-	
+	// fmt.Println(t)
+	// fmt.Println(t.N)
 	m, _ := json.Marshal(t)
 	fmt.Printf("%s", m)
 }
